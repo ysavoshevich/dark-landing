@@ -9,7 +9,7 @@ export default function ContentCard({ heading, text, btnText, image }) {
           {text}
         </p>
       </div>
-      <button className="z-50 px-10 py-4 mb-5 text-white transition-transform duration-200 transform lg:mb-0 hover:-translate-y-1 bg-primary">
+      <button className="z-50 px-16 py-4 mb-5 text-white transition-transform duration-200 transform lg:mb-0 hover:-translate-y-1 bg-primary">
         {btnText}
       </button>
       <div className="w-full pt-10">{image}</div>

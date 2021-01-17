@@ -87,29 +87,29 @@ export default function GallerySection() {
     }
   `)
   return (
-    <section className="text-white bg-darkBlack">
+    <section className="pb-32 text-white bg-darkBlack">
       <div className="container">
         <h2 className="mb-10 text-5xl text-center ">Gallery</h2>
-        <p className="max-w-xl px-10 mx-auto mb-24 text-xl text-center lg:px-0">
+        <p className="max-w-xl px-10 mx-auto mb-8 text-xl text-center lg:px-0">
           We focus on ergonomics and meeting you where you work. It's only a
           keystroke away.
         </p>
-        <div className="hidden w-full lg:flex">
+        <div className="justify-between hidden w-full lg:flex">
           <Image
             fluid={data.FirstRowCardZero.childImageSharp.fluid}
-            className="w-full"
+            className="w-full -mx-5"
           />
           <Image
             fluid={data.FirstRowCardOne.childImageSharp.fluid}
-            className="w-full"
+            className="w-full -mx-5"
           />
           <Image
             fluid={data.FirstRowCardTwo.childImageSharp.fluid}
-            className="w-full"
+            className="w-full -mx-5"
           />
           <Image
             fluid={data.FirstRowCardThree.childImageSharp.fluid}
-            className="w-full"
+            className="w-full -mx-5"
           />
         </div>
         <div className="hidden lg:flex">
@@ -144,6 +144,9 @@ export default function GallerySection() {
             className="w-full max-w-md"
           />
         </div>
+        <button className="block py-2 mx-auto transition-transform duration-200 transform border border-white px-7 lg:px-10 lg:py-3 hover:-translate-y-1">
+          See More
+        </button>
       </div>
     </section>
   )

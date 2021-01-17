@@ -9,7 +9,7 @@ import NavLink from "./NavLink"
 export default function Footer() {
   return (
     <footer className="pt-24 pb-20 text-white bg-darkBlack">
-      <div className="container flex flex-col justify-between pl-20 lg:pl-0 lg:flex-row">
+      <div className="container flex flex-col justify-between pl-20 lg:px-20 lg:pl-20 lg:flex-row">
         <div className="flex flex-col lg:flex-row">
           <div className="flex flex-col mb-10 mr-10 lg:mb-0">
             <h4 className="mb-5 text-2xl">Fingertipe</h4>
