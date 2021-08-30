@@ -40,7 +40,7 @@ export default function Footer() {
           </div>
           <div className="flex mt-2">
             <Phone />
-            <p className="pl-2">(239) 555-0108</p>
+            <p className="pl-2">(666) 666-1234</p>
           </div>
           <div className="flex mt-5">
             <a href="">
